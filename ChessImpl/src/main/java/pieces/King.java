@@ -3,7 +3,7 @@ package pieces;
 import resources.Color;
 
 public class King implements Piece {
-    Color color;
+    private Color color;
     @Override
     public Color getColor() {
         return color;
